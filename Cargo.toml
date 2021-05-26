@@ -1,0 +1,16 @@
+[package]
+name = "chip8_emulator"
+version = "0.1.0"
+authors = ["FutureChanger <migi.perez@web.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pretty-hex = "0.1.1"
+rand = "0.7.3"
+console = "*"
+rodio = "*"
+
+[dependencies.sdl2]
+version = "0.34.5"
